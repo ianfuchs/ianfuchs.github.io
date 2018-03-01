@@ -85,7 +85,7 @@ iframe {
 }
 
 /*************************************************************/
-/*this is very experimental */
+/*use a div with full-width for gray bars. Use a narrow-block to scale it to normal width  */
 .full-width {
   width: 100vw;
   position: relative;
