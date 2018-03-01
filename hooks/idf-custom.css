@@ -62,7 +62,6 @@ iframe {
 	width: 100%;
 }
 
-
 /*************************************************************/
 /* use .filldiv on a container around an image to make the image overflow container and fill to full size */
 .filldiv {
@@ -80,12 +79,6 @@ iframe {
     min-height: 100%
 }
 
-
-
-
-
-
-
 /*************************************************************/
 /*this is very experimental */
 .full-width {
@@ -98,6 +91,6 @@ iframe {
   margin-right: -50vw;
 }
 
-.full-width .inner {
+.full-width .inner, .full-width .narrow-content {
 	margin: auto;
 }
