@@ -1,6 +1,6 @@
 /* Ian's custom CSS */
-
-
+/*************************************************************/
+/*Full width image panel */
 .override {
 	width: 100vw !important;
 	margin-left: calc(-1 * ((100vw - 100%) / 2));
@@ -9,7 +9,8 @@
 	display: flex;
 	align-items: center;
 }
-
+/*************************************************************/
+/* Full width gray band with margins for content */
 .graywrap {
 	width: 100vw !important;
 	margin-left: calc(-1 * ((100vw - 100%) / 2));
@@ -36,10 +37,13 @@
 .graywrap p {
 	margin: 1rem 0px 0px 0px;
 }
-
+/*************************************************************/
+/* gets rid or iframe border in the only way Epi will respect */
 iframe {
 	border: 0;
 }
+/*************************************************************/
+/* obviously, this is the slideshow styling and button controls */
 
 .mySlides {
 /* 	height: auto; */
@@ -48,16 +52,19 @@ iframe {
 	max-width: 100%;
 	max-height: 600px;
 }
-
 .slide-control {
 	text-align: center;
 	padding-top: 10px;
 }
-
+/*************************************************************/
+/* sets width of buttons to max, instead of adjusting by content (appends to WSOL css)  */
 .btn-secondary {
 	width: 100%;
 }
 
+
+/*************************************************************/
+/* use .filldiv on a container around an image to make the image overflow container and fill to full size */
 .filldiv {
     display: flex;
     justify-content: center;
@@ -65,7 +72,7 @@ iframe {
     overflow: hidden
 }
 .filldiv img {
-	object-fit: cover;
+	object-fit: none;
     flex-shrink: 0;
     width: auto;
     min-width: 100%;
