@@ -91,6 +91,11 @@ iframe {
   margin-right: -50vw;
 }
 
-.full-width .inner, .full-width .narrow-content {
+.full-width .inner {
 	margin: auto;
+}
+
+.full-width .narrow-block {
+	max-width: 60rem;
+	padding: 1rem auto; 
 }
