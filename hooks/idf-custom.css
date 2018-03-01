@@ -95,7 +95,7 @@ iframe {
 	margin: auto;
 }
 
-.full-width .narrow-block {
+.narrow-block {
 	max-width: 60rem;
 	padding: 1rem auto; 
 }
