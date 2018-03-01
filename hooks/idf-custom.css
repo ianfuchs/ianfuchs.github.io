@@ -1,4 +1,5 @@
 /* Ian's custom CSS */
+
 /*************************************************************/
 /*Full width image panel */
 .override {
@@ -9,6 +10,7 @@
 	display: flex;
 	align-items: center;
 }
+
 /*************************************************************/
 /* Full width gray band with margins for content */
 .graywrap {
@@ -37,11 +39,13 @@
 .graywrap p {
 	margin: 1rem 0px 0px 0px;
 }
+
 /*************************************************************/
 /* gets rid or iframe border in the only way Epi will respect */
 iframe {
 	border: 0;
 }
+
 /*************************************************************/
 /* obviously, this is the slideshow styling and button controls */
 
@@ -56,6 +60,7 @@ iframe {
 	text-align: center;
 	padding-top: 10px;
 }
+
 /*************************************************************/
 /* sets width of buttons to max, instead of adjusting by content (appends to WSOL css)  */
 .btn-secondary {
