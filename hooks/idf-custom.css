@@ -97,5 +97,6 @@ iframe {
 
 .narrow-block {
 	max-width: 60rem;
-	padding: 1rem; 
+	padding: 1.5rem;
+	margin: auto; 
 }
