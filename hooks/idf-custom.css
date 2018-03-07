@@ -95,12 +95,11 @@ iframe {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 .full-width .inner {
 	margin: auto;
+	padding-bottom: initial;
 }
 
 .narrow-block {
