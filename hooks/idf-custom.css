@@ -73,8 +73,9 @@ iframe {
 .filldiv {
     display: flex;
     justify-content: center;
-    align-items: center;
-    overflow: hidden
+/*     align-items: center; */
+    overflow: hidden;
+    margin-bottom: 3rem;
 }
 .filldiv img {
 	object-fit: none;
