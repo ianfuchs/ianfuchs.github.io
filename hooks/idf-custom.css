@@ -113,6 +113,6 @@ iframe {
 	color: #ba0c2f;
 }
 
-.unit.FlexibleContent h3, .section-header h2 {
+FlexibleContent h3, section-header h2 {
 	display: none;
 }
