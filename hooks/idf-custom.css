@@ -112,3 +112,7 @@ iframe {
 .red {
 	color: #ba0c2f;
 }
+
+.FlexibleContent .h3 {
+	display: none;
+}
