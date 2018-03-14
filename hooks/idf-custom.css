@@ -116,3 +116,11 @@ iframe {
 .unit.FlexibleContent.size1of1.generalcontentblockdata h3, h2.section-header, .pride h3{
 	display: none;
 }
+
+.noheading h3 {
+	display: none;
+}
+
+.noheading .linked h3 {
+	display: initial;
+}
