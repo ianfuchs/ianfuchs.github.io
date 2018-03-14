@@ -121,6 +121,6 @@ iframe {
 	display: none;
 }
 
-.linked h3 {
+h3.linked {
 	display: initial;
 }
