@@ -4,13 +4,14 @@
 	background-color: efaa22;
 /* 	background: URL("../uploadedImages/Content/Contact/tempbg2.jpg") no-repeat; */
 	background-size: 100% 100%;
-	margin-left: auto;
-    margin-right: auto;
+/* 	margin-left: auto; */
+/*  margin-right: auto; */
 /* 	margin-top:15px; */
 /* 	margin-bottom:15px; */
+	margin: auto;
     height: 100px;
     width: 100%;
-    max-width: 600px;
+/*  max-width: 600px; */
 	border-radius: 7px;
 /* 	border: 2px solid #d3d3d3; */
     padding: 2px;
@@ -20,7 +21,7 @@
 
 .askForm {
 	position: relative;
-	right: -60px;
+/* 	right: -60px; */
 }
 
 
