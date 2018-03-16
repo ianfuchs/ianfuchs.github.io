@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .ama {
-	background-color:efaa22;
+	background-color: efaa22;
 /* 	background: URL("../uploadedImages/Content/Contact/tempbg2.jpg") no-repeat; */
 	background-size: 100% 100%;
 	margin-left: auto;
@@ -30,9 +30,9 @@ h3 {
 	margin-top:5px;
 }
 
-span.white {
-	color:white;
+span.red {
+	color: #9E1B34;
 }
 span.yellow {
-	color:#efaa22;
+	color: #efaa22;
 }
