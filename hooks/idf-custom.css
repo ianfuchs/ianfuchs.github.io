@@ -47,6 +47,12 @@ iframe {
 	border: 0;
 }
 
+@media (max-width:675px) {
+  iframe .qless {
+    height: 1200px
+  }
+}
+
 /*************************************************************/
 /* obviously, this is the slideshow styling and button controls */
 
