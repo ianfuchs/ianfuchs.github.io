@@ -63,11 +63,12 @@ iframe {
 	width: 100%;
 	border: 0;
 	overflow: hidden;
+	scrolling: no;
 }
 
 @media (max-width:750px) {
   .qless {
-    height: 840px;
+    height: 960px;
   }
 }
 
