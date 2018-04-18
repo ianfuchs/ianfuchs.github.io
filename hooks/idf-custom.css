@@ -45,12 +45,14 @@
 /* gets rid or iframe border in the only way Epi will respect */
 iframe {
 	border: 0;
+	overflow: hidden;
 }
 
 .qless {
 	height: 650px;
 	width: 100%;
 	position: relative;
+	overflow: hidden;
 }
 
 .qless iframe {
@@ -63,7 +65,6 @@ iframe {
 	width: 100%;
 	border: 0;
 	overflow: hidden;
-	scrolling: no;
 }
 
 @media (max-width:750px) {
