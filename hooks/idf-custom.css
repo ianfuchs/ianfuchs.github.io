@@ -138,7 +138,13 @@ iframe {
 /*************************************************************/
 /*hides some headings link lists  */
 
-.unit.FlexibleContent.size1of1.generalcontentblockdata h3, /*h2.section-header,*/ .pride h3{
+/* duped below, but without exclusion of home page h2*/
+/*
+.unit.FlexibleContent.size1of1.generalcontentblockdata h3, h2.section-header, .pride h3{
+	display: none;
+}
+ */
+ .unit.FlexibleContent.size1of1.generalcontentblockdata h3, .pride h3{
 	display: none;
 }
 
