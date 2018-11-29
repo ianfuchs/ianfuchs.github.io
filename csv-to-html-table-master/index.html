@@ -50,14 +50,17 @@
 
 
     <script type="text/javascript">
-      function format_link(link){
+      function format_phone(link){
         if (link)
           return "(708)456-0300, Ext. " + link;
         else
           return "";
       }
 
-      
+       function no_id(link){
+          return "";
+      }
+     
 
 
       CsvToHtmlTable.init({
@@ -66,7 +69,8 @@
         allow_download: false,
         csv_options: {separator: ',', delimiter: '"'},
         datatables_options: {"paging": true},
-        custom_formatting: [[5, format_link]]
+        custom_formatting: [[4, format_phone]]
+        custom_formatting: [[0, no_id]]
       });
     </script>
   </body>
