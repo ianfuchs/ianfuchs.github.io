@@ -52,18 +52,21 @@
     <script type="text/javascript">
       function format_link(link){
         if (link)
-          return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+          return "(708)456-0300, Ext. " + link;
         else
           return "";
       }
 
+      
+
+
       CsvToHtmlTable.init({
         csv_path: 'data/directoryinfo.csv',
         element: 'table-container', 
-        allow_download: true,
+        allow_download: false,
         csv_options: {separator: ',', delimiter: '"'},
         datatables_options: {"paging": true},
-        custom_formatting: [[4, format_link]]
+        custom_formatting: [[5, format_link]]
       });
     </script>
   </body>
