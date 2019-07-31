@@ -47,6 +47,26 @@ iframe {
 	border: 0;
 }
 
+.qless {
+	height: 650px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.qless iframe {
+	height: 100%;
+	width: 100%;
+	border: 0;
+	overflow: hidden;
+}
+
+@media (max-width:750px) {
+  .qless {
+    height: 960px;
+  }
+}
+
 /*************************************************************/
 /* makes iFrames inside of container responsive */
 
@@ -126,14 +146,25 @@ iframe {
 .narrow-block {
 	max-width: 60rem;
 	padding: 1.5rem;
-	margin: auto; 
+	margin: auto;
 }
 
+/*************************************************************/
+/*use with a span or text format to set text color to red  */
 .red {
 	color: #ba0c2f;
 }
 
+/*************************************************************/
+/*hides some headings link lists  */
+
+/* duped below, but without exclusion of home page h2*/
+/*
 .unit.FlexibleContent.size1of1.generalcontentblockdata h3, h2.section-header, .pride h3{
+	display: none;
+}
+ */
+ .unit.FlexibleContent.size1of1.generalcontentblockdata h3, .pride h3{
 	display: none;
 }
 
@@ -143,4 +174,10 @@ iframe {
 
 h3.linked {
 	display: initial;
+}
+
+.copyright a {
+	color: #b2b2b2;
+	font-style: normal;
+	font-weight: 200;
 }
