@@ -70,13 +70,12 @@ iframe {
 /*************************************************************/
 /* makes iFrames inside of container responsive */
 
-/* 
 .iframe-container {
   overflow: hidden;
   padding-top: 56.25%;
   position: relative;
   z-index: 1;
-  height: 1240px;
+  height: auto;
   max-width: 720px;
 }
  
@@ -88,7 +87,7 @@ iframe {
    top: 0;
    width: 100%;
 }
- */
+
 
 .iframe-container object {
    border: 0;
