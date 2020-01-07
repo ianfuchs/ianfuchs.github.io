@@ -1,3 +1,16 @@
+function swapDiv(divNum) {
+  
+  var x = document.getElementById("div"+divNum);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+// THIS WAS AN OLD IDEA THAT DIDN'T WORK
+//
 // function toggleDiv(divNum) {
 //     
 //     $("#close").hide();
@@ -17,12 +30,3 @@
 // })
 
 //https://stackoverflow.com/questions/43446745/onclick-changing-content-on-div
-
-function swapDiv(divNum) {
-  var x = document.getElementById("div"+divNum);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
