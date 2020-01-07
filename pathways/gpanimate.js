@@ -1,7 +1,5 @@
 function swapDiv(divNum) {
   
-// 	var y = document.querySelectorAll("[id*=div]")
-// 	  	{ y.style.display = "none"; }
   var x = document.getElementById("div"+divNum);
   if (x.style.display === "none") {
     x.style.display = "block";
