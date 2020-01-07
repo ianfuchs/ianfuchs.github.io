@@ -16,8 +16,8 @@
 }
 
 #right-content {
-  position:relative;
-  right:0;
+  position:absolute;
+  left:0;
   top:0; 
   overflow:hidden;
   width:100%;
