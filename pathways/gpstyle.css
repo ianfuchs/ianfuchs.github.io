@@ -16,12 +16,12 @@
 }
 
 #right-content {
-  position:absolute;
+  /* position:absolute;
   right:0;
-  top:0;
+  top:0; 
   overflow:hidden;
   width:200px;
-  height:100%;
+  height:100%;*/
 }
 
 /* https://stackoverflow.com/questions/43446745/onclick-changing-content-on-div */
