@@ -15,3 +15,5 @@ $(document).ready(function(){
    })
 
 })
+
+//https://stackoverflow.com/questions/43446745/onclick-changing-content-on-div
