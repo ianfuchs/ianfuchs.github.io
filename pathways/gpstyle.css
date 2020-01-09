@@ -47,14 +47,21 @@
 /*mobile first */
 .pathways-desktop {
 	display: none;
-	}
-.pathways-mobile {
+}
+.pathways-mobile img {
+	display: block;
+}
+.pathways-mobile img {
 	width: 100%%;
 }
 
 
 @media only screen and (min-width: 768px) {
 /* This is for desktop display of 4 columns of icons*/
+.pathways-desktop {
+	display: block;
+	}
+
 .pathways-desktop img {
 	margin: .5rem;
 	max-width: 22%;
