@@ -48,7 +48,7 @@
 .pathways-desktop {
 	display: none;
 }
-.pathways-mobile img {
+.pathways-mobile {
 	display: block;
 }
 .pathways-mobile img {
@@ -60,7 +60,7 @@
 /* This is for desktop display of 4 columns of icons*/
 .pathways-desktop {
 	display: block;
-	}
+}
 
 .pathways-desktop img {
 	margin: .5rem;
