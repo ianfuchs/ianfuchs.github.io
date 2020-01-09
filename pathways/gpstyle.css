@@ -44,19 +44,25 @@
 */
 }
 
-.pathways img {
-	margin: .25rem;
-	max-width: 48%;
+/*mobile first */
+.pathways-desktop {
+	display: none;
+	}
+.pathways-mobile {
+	width: 100%%;
 }
 
 
 @media only screen and (min-width: 768px) {
-
-.pathways img {
+/* This is for desktop display of 4 columns of icons*/
+.pathways-desktop img {
 	margin: .5rem;
 	max-width: 22%;
 }
-
+.pathways-mobile {
+	display: none;
 }
+
+} /* <-- This is closing the media query*/
 
 /* https://stackoverflow.com/questions/43446745/onclick-changing-content-on-div */
