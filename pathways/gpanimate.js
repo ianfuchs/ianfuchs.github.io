@@ -4,6 +4,7 @@ var x = document.getElementById("div"+divNum);
 var y = document.getElementById(divNum)
 var TextElements = document.getElementsByClassName("slide");
 
+console.log(y);
 
 for (var i = 0, max = TextElements.length; i < max; i++) {
     TextElements[i].style.display = "none";
