@@ -7,10 +7,12 @@ var TextElements = document.getElementsByClassName("slide");
 for (var i = 0, max = TextElements.length; i < max; i++) {
     TextElements[i].style.display = "none";
 }
-  if (x.style.display === "none") {
-    x.style.display = "block";
+  if (x === "div8") {
+    for (var i = 0, max = TextElements.length; i < max; i++) {
+    	TextElements[i].style.display = "block";
+	}
   } else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
