@@ -45,8 +45,18 @@
 }
 
 .pathways img {
+	margin: .25rem;
+	max-width: 48%;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+.pathways img {
 	margin: .5rem;
 	max-width: 22%;
+}
+
 }
 
 /* https://stackoverflow.com/questions/43446745/onclick-changing-content-on-div */
