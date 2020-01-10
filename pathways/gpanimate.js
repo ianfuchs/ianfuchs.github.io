@@ -1,6 +1,6 @@
 function swapDiv(divNum) {
 
-    var x = document.getElementById("div" + divNum);
+    var x = document.getElementById("div"+divNum);
     var y = (divNum)
     var TextElements = document.getElementsByClassName("slide");
 
