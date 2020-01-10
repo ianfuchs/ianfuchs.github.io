@@ -6,7 +6,7 @@ function swapDiv(divNum) {
 
     console.log(y);
 
-    if (x.style.display = "block";) {
+    if (x.style.display = "block") {
         x.style.display = "none";
     } else {
 
