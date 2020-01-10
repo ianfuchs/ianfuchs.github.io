@@ -31,6 +31,5 @@ function swapDiv(divNum) {
                 x.style.display = "block";
             }
         }
-    }
 }
 
