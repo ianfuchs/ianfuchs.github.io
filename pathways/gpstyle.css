@@ -50,6 +50,7 @@
 }
 .pathways-mobile {
 	display: block;
+	line-height: 0 !important;
 }
 .pathways-mobile img {
 	width: 100%;
