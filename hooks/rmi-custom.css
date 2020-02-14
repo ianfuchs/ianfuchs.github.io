@@ -4,7 +4,11 @@
 /*************************************************************/
 
 .narrow-section {
-	padding-bottom: unset !important;
+	padding-bottom: 0rem !important;
+}
+
+.size1of1>.section{
+	padding-top: 0rem !important;
 }
 
 
