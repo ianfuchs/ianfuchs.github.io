@@ -2,6 +2,7 @@
 /* Example pages at uat.triton.wsoldev.com */
 
 /*************************************************************/
+/*this is stuff specifically for the RMI to display correctly*/
 
 .narrow-section {
 	padding-bottom: 0rem !important;
@@ -9,6 +10,10 @@
 
 .size1of1>.section{
 	padding-top: 0rem !important;
+}
+
+.news-article>.article-header{
+	margin-bottom: 0rem !important;
 }
 
 
