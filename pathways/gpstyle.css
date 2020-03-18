@@ -78,6 +78,10 @@
 	display: none;
 }
 
+.gpunit {
+	padding-top: 1rem !important;
+}
+
 } /* <-- This is closing the media query*/
 
 /* https://stackoverflow.com/questions/43446745/onclick-changing-content-on-div */
