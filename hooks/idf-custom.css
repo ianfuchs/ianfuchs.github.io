@@ -193,3 +193,7 @@ h3.linked {
 	font-style: normal;
 	font-weight: 200;
 }
+
+chatcenter {
+	text-align: center !important;
+}
