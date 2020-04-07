@@ -57,7 +57,6 @@
 	margin: 0;
 	padding: 0;
 	line-height: 0;
-	cursor: pointer;
 }
 
 .gpunit .unit {
@@ -74,6 +73,7 @@
 .pathways-desktop img {
 	margin: .5rem;
 	max-width: 22%;
+	cursor: pointer;
 }
 .pathways-mobile {
 	display: none;
