@@ -67,7 +67,8 @@
 @media only screen and (min-width: 680px) {
 /* This is for desktop display of 4 columns of icons*/
 .pathways-desktop {
-	display: block;
+	display: inline-block;
+	line-height: 0;
 }
 
 .pathways-desktop img {
