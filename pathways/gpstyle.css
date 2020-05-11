@@ -73,8 +73,8 @@
 	margin-top: -3rem;
 }
 
-.FlexibleContent {
-	margin-top: unset;
+.unit.FlexibleContent {
+	padding-top: unset;
 }
 
 
@@ -106,6 +106,10 @@
 
 .FlexibleLandingContent {
 	margin-top: -5rem;
+}
+
+.unit.FlexibleContent {
+	padding-top: unset;
 }
 
 } /* <-- This is closing the media query*/
