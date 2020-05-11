@@ -44,6 +44,8 @@
 */
 }
 
+/* https://stackoverflow.com/questions/43446745/onclick-changing-content-on-div */
+
 /*mobile first */
 .pathways-desktop {
 	display: none;
@@ -112,6 +114,8 @@
 	padding-top: 0rem;
 }
 
-} /* <-- This is closing the media query*/
+.spaceman {
+	padding: 2rem;
+}
 
-/* https://stackoverflow.com/questions/43446745/onclick-changing-content-on-div */
+} /* <-- This is closing the media query*/
