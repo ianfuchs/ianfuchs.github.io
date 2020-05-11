@@ -63,8 +63,14 @@
 	padding-top: 1rem !important;
 }
 
+/*These classes are for the areas of study pages on mobile (defaults)*/
+
 .AoS-main {
 	padding-top: unset;
+}
+
+.FlexibleLandingContent {
+	margin-top: -3rem
 }
 
 
@@ -88,8 +94,14 @@
 	padding-top: 1rem !important;
 }
 
+/*These classes are for the areas of study pages on desktop */
+
 .AoS-main {
-	padding-top: 1rem;
+	padding-top: 4rem;
+}
+
+.FlexibleLandingContent {
+	margin-top: -5rem
 }
 
 } /* <-- This is closing the media query*/
