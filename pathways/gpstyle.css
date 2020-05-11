@@ -74,7 +74,7 @@
 }
 
 .unit.FlexibleContent {
-	padding-top: unset;
+	padding-top: 0rem;
 }
 
 
@@ -109,7 +109,7 @@
 }
 
 .unit.FlexibleContent {
-	padding-top: unset;
+	padding-top: 0rem;
 }
 
 } /* <-- This is closing the media query*/
