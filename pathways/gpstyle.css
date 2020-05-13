@@ -121,7 +121,8 @@
 }
 
 .FlexibleLandingContent .inner {
-	padding: 10% 10%;
+	padding: 2%;
+	max-width: 82rem;
 }
 
 } /* <-- This is closing the media query*/
