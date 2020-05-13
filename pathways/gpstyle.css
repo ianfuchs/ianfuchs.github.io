@@ -119,7 +119,8 @@
 }
 
 .FlexibleLandingContent .inner {
-	padding: 0rem 3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
 }
 
 } /* <-- This is closing the media query*/
