@@ -119,8 +119,7 @@
 }
 
 .FlexibleLandingContent .inner {
-	margin-left: 3rem;
-	margin-right: 3rem;
+	padding: 2rem 3rem;
 }
 
 } /* <-- This is closing the media query*/
