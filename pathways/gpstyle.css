@@ -114,12 +114,14 @@
 	padding-top: 0rem;
 }
 
-.spaceman {
-	padding: 2rem;
+.spaceman::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .FlexibleLandingContent .inner {
-	padding: 2rem 3rem;
+	padding: 3rem 6rem;
 }
 
 } /* <-- This is closing the media query*/
