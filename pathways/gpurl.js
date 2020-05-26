@@ -9,4 +9,4 @@
 	    return decodeURIComponent(results[2].replace(/\+/g, " "));
 	}
 	// Give the parameter a variable name
-	var dynamicContent = getParameterByName('dc');
+	var dynamicContent = getParameterByName('AoS');
