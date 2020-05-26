@@ -44,36 +44,36 @@ function swapDiv(divNum) {
 	    return decodeURIComponent(results[2].replace(/\+/g, " "));
 	}
 	// Give the parameter a variable name
-	var dynamicContent = getParameterByName('dc');
+	var slide = getParameterByName('dc');
  
 	 $(document).ready(function() {
  
 		// Check if the URL parameter is art
-		if (dynamicContent == 'art') {
+		if (slide == 'art') {
 			$('#div1').show();
 		} 
 		// Check if the URL parameter is bus
-		else if (dynamicContent == 'bus') {
+		else if (slide == 'bus') {
 			$('#div2').show();
 		} 
 		// Check if the URL parameter is bananas
-		else if (dynamicContent == 'cul') {
+		else if (slide == 'cul') {
 			$('#div3').show();
 		} 
 				// Check if the URL parameter is bananas
-		else if (dynamicContent == 'health') {
+		else if (slide == 'health') {
 			$('#div4').show();
 		} 
 				// Check if the URL parameter is bananas
-		else if (dynamicContent == 'hum') {
+		else if (slide == 'hum') {
 			$('#div5').show();
 		} 
 				// Check if the URL parameter is bananas
-		else if (dynamicContent == 'tech') {
+		else if (slide == 'tech') {
 			$('#div6').show();
 		} 
 				// Check if the URL parameter is bananas
-		else if (dynamicContent == 'sci') {
+		else if (slide == 'sci') {
 			$('#div7').show();
 		} 
 		// Check if the URL parmeter is empty or not defined, display default content
