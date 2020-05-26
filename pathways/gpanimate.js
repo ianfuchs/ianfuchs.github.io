@@ -81,5 +81,4 @@ function swapDiv(divNum) {
 			$('#default-content').show();
 		}
 	});
-</script>
 
