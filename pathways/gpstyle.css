@@ -1,30 +1,4 @@
-.aos-container {
-	display: flex;
-	flex-wrap: nowrap;
-}
 
-.aos-container .aos-area {
-	width: 180px;
-	margin: 1px;
-	text-align: center;
-	flex-grow: 1;
-}
-
-.aos-all {
-	width: 100%;
-	margin: 1px;
-	text-align: center;
-	flex-grow: 1;
-	background-color: #f1f1f1;
-	min-height: 75px;
-	height: auto;
-	justify-content: center;
-	align-items: center;
-}
-
-.aos-area img{
-	width: 100%;
-}
 
 .slide {
   width: 100%;
@@ -107,9 +81,65 @@
 	padding-top: 0rem;
 }
 
+.aos-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.aos-container .aos-area {
+	width: 180px;
+	margin: 1px;
+	text-align: center;
+	flex-grow: 1;
+	flex: 100%;
+}
+
+.aos-all {
+	width: 100%;
+	margin: 1px;
+	text-align: center;
+	flex-grow: 0;
+	background-color: #f1f1f1;
+/* 	min-height: 75px; */
+	height: auto;
+	display: inline-block;
+}
+
+.aos-area img, .aos-all img {
+	width: 100%;
+}
+
 
 @media only screen and (min-width: 680px) {
 /* This is for desktop display of 4 columns of icons*/
+
+.aos-container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.aos-container .aos-area {
+	width: 180px;
+	margin: 1px;
+	text-align: center;
+	flex-grow: 1;
+}
+
+.aos-all {
+	width: 100%;
+	margin: 1px;
+	text-align: center;
+	flex-grow: 1;
+	background-color: #f1f1f1;
+/* 	min-height: 75px; */
+	height: auto;
+	display: inline-block;
+}
+
+.aos-area img{
+	width: 100%;
+}
+
 .pathways-desktop {
 	display: inline-block;
 	line-height: 0;
