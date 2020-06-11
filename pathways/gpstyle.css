@@ -142,7 +142,8 @@
 }
 
 .aos-area:hover, .aos-all:hover {
-	box-shadow: 0 0 5px rgb(150, 150, 150);
+	box-shadow: 0 0 5px rgb(102, 102, 102);
+	z-index: 1;
 }
 
 .pathways-desktop {
