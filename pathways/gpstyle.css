@@ -135,6 +135,9 @@
 /* 	min-height: 75px; */
 	height: auto;
 	display: inline-block;
+	transition: all 200ms ease-out;
+	box-shadow: none;
+	
 }
 
 .aos-area img{
@@ -151,6 +154,12 @@
 	max-width: 22%;
 	cursor: pointer;
 }
+
+.aos-area:hover {
+/* 	transition: all 200ms ease-out; */
+	box-shadow: 0 0 6px rgb(35 173 255);
+}
+
 .pathways-mobile {
 	display: none;
 }
