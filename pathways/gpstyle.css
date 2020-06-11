@@ -121,32 +121,36 @@
 
 .aos-container .aos-area {
 	width: 180px;
-	margin: 1px;
+	margin: 2px;
 	text-align: center;
 	flex-grow: 1;
 	transition: all 200ms ease-out;
 	box-shadow: none;
+	line-height: initial;
 }
 
-.aos-area:hover {
+.aos-area:hover, aos-all:hover {
 /* 	transition: all 200ms ease-out; */
-	box-shadow: 0 0 6px rgb(35 173 255);
+	box-shadow: 0 0 5px rgb(196, 30, 58);
 }
 
 .aos-all {
 	width: 100%;
-	margin: 1px;
+	margin: 2px;
 	text-align: center;
 	flex-grow: 1;
 /* 	background-color: #f1f1f1; */
 /* 	min-height: 75px; */
 	height: auto;
 	display: inline-block;
+	transition: all 200ms ease-out;
+	box-shadow: none;
 }
 
 .aos-area img{
 	width: 100%;
 	cursor: pointer;
+	display: block;
 }
 
 .pathways-desktop {
