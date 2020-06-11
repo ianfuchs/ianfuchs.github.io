@@ -129,22 +129,18 @@
 	line-height: initial;
 }
 
-.aos-area:hover, aos-all:hover {
-/* 	transition: all 200ms ease-out; */
-	box-shadow: 0 0 5px rgb(196, 30, 58);
-}
-
 .aos-all {
 	width: 100%;
 	margin: 2px;
 	text-align: center;
 	flex-grow: 1;
-/* 	background-color: #f1f1f1; */
-/* 	min-height: 75px; */
-	height: auto;
-	display: inline-block;
 	transition: all 200ms ease-out;
 	box-shadow: none;
+	line-height: initial;
+}
+
+.aos-area:hover, .aos-all:hover {
+	box-shadow: 0 0 5px rgb(196, 30, 58);
 }
 
 .aos-area img{
