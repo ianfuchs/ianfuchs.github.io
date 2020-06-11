@@ -108,6 +108,8 @@
 
 .aos-area img, .aos-all img {
 	width: 100%;
+	cursor: pointer;
+	display: block;
 }
 
 
@@ -141,12 +143,6 @@
 
 .aos-area:hover, .aos-all:hover {
 	box-shadow: 0 0 5px rgb(196, 30, 58);
-}
-
-.aos-area img, .aos-all img {
-	width: 100%;
-	cursor: pointer;
-	display: block;
 }
 
 .pathways-desktop {
