@@ -116,16 +116,20 @@ iframe {
 
 /*************************************************************/
 /* sets width of buttons to max, instead of adjusting by content (appends to WSOL css)  */
-.btn-secondary {
+.btn, .btn-secondary {
 	width: 100%;
 }
 
+
+@media only screen and (min-width: 680px) {
+/* This is for desktop display of 4 columns of icons*/
 [type=reset] {
-	width: 40% !important;
+	width: 50% !important;
 }
 
 [type=submit] {
-	width: 60% !important;
+	width: 50% !important;
+}
 }
 
 /*************************************************************/
