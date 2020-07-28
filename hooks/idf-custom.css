@@ -120,6 +120,13 @@ iframe {
 	width: 100%;
 }
 
+input[type=reset] {
+	width: 40% !important;
+}
+input[type=submit] {
+	width: 60% !important;
+}
+
 /*************************************************************/
 /* use .filldiv on a container around an image to make the image overflow container and fill to full size */
 .filldiv {
