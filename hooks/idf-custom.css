@@ -120,10 +120,11 @@ iframe {
 	width: 100%;
 }
 
-input[type=reset] {
+[type=reset] {
 	width: 40% !important;
 }
-input[type=submit] {
+
+[type=submit] {
 	width: 60% !important;
 }
 
