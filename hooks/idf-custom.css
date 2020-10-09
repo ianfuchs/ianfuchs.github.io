@@ -220,6 +220,8 @@ h3.linked {
 
 .hsi {
 	margin: auto;
+	text-align: center;
+	max-width: 400px;
 }
 
 .hsi > img {
