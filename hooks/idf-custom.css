@@ -218,7 +218,11 @@ h3.linked {
 	text-align: center !important;
 }
 
+.hsi {
+	margin: auto;
+}
+
 .hsi > img {
 	width: 100%;
-	max-width: 320px;
+	max-width: 360px;
 }
