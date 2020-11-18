@@ -112,6 +112,14 @@
 	display: block;
 }
 
+.isolzr { 
+	display: none !important;
+}
+
+.cc-card {
+	margin-bottom: 10px;
+}
+
 
 @media only screen and (min-width: 680px) {
 /* This is for desktop display of 4 columns of icons*/
