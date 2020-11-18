@@ -121,11 +121,12 @@
 }
 
 .cc-content-link {
-	background-color: #ba0c2f;
+	background-color: #ba0c2f !important;
+	font-size: initial !important;
 }
 
 .cc-content-salary {
-	color: #ba0c2f;
+	color: #ba0c2f !important;
 }
 
 
