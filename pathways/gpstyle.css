@@ -120,6 +120,14 @@
 	margin-bottom: 10px;
 }
 
+.cc-content-link {
+	background-color: #ba0c2f;
+}
+
+.cc-content-salary {
+	color: #ba0c2f;
+}
+
 
 @media only screen and (min-width: 680px) {
 /* This is for desktop display of 4 columns of icons*/
