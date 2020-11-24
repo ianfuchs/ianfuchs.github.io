@@ -1,0 +1,42 @@
+.GPFlexParent {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+  min-height: 200px;
+ //background: lightgray;
+ flex-direction: column;
+}
+
+.CPFlexChild {
+  flex: 1 1 auto;
+  text-align: center;
+  margin: auto;
+  align-self: center;
+  text-wrap: wrap;
+  width: 100%;
+}
+
+@media only screen and (min-width: 680px) {
+/* This is for desktop display of 4 columns of icons*/
+  
+	.GPFlexParent {
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-content: space-around;
+	  align-items: center;
+	  min-height: 200px;
+	 //background: lightgray;
+	  flex-direction: row;
+	}
+	
+	.CPFlexChild {
+	  flex: 1 1 auto;
+	  text-align: center;
+	  margin: 1px;
+	  align-self: center;
+	  text-wrap: wrap;
+	  width: 13%;
+	}
+
+}

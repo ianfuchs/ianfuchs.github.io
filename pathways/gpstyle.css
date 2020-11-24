@@ -229,16 +229,15 @@
 
 .CPFlexChild {
   flex: 1 1 auto;
-  //background: lightgray;
   text-align: center;
-  margin: 1px;
+  margin: auto;
   align-self: center;
   text-wrap: wrap;
-  width: 13%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 680px) {
-/* This is for desktop display of 4 columns of icons*/
+/* This is for desktop displays wider than 680px*/
   
 	.GPFlexParent {
 	  display: flex;
@@ -248,6 +247,15 @@
 	  min-height: 200px;
 	 //background: lightgray;
 	  flex-direction: row;
+	}
+	
+	.CPFlexChild {
+	  flex: 1 1 auto;
+	  text-align: center;
+	  margin: 1px;
+	  align-self: center;
+	  text-wrap: wrap;
+	  width: 13%;
 	}
 
 }
