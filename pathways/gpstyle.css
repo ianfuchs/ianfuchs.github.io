@@ -237,8 +237,16 @@
 
 .CPFlexChild {
 	color: white;
-	text-decoration: strong;
+	font-weight: 200;
+	float: right;
 }
+
+.CPFlexChild.img {
+	margin: auto;
+	max-width: 25%;
+	float: left;
+}
+
 
 .GPFlexParent > .art {
 background-color: #EAD04B;
@@ -281,5 +289,14 @@ background-color: #DA3831;
 	  text-wrap: wrap;
 	  width: 13%;
 	}
+	
+	.CPFlexChild {
+	  float: unset;
+}
+	
+	.CPFlexChild.img {
+	  max-width: unset;
+	  float: unset;
+}
 
 }
