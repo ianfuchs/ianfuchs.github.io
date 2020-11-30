@@ -236,6 +236,28 @@
   width: 100%;
 }
 
+.GPFlexParent > .art {
+background-color: #EAD04B;
+}
+.GPFlexParent > .business {
+background-color: #A0B85F;
+}
+.GPFlexParent > .industrial {
+background-color: #EA973E;
+}
+.GPFlexParent > .culinary {
+background-color: #5D559E;
+}
+.GPFlexParent > .health {
+background-color: #3074AC;
+}
+.GPFlexParent > .human {
+background-color: #78BED2;
+}
+.GPFlexParent > .scieng {
+background-color: #DA3831;
+}
+
 @media only screen and (min-width: 680px) {
 /* This is for desktop displays wider than 680px*/
   
