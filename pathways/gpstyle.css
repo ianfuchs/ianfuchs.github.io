@@ -232,6 +232,7 @@
   font-weight: 600;
   float: right;
   vertical-align: middle;
+  line-height: 1.3;
 }
 
 	.GPFlexParent > .art {
@@ -264,6 +265,7 @@
 
 .CPFlexChild > span {
 	vertical-align: middle;
+
 }
 
 
