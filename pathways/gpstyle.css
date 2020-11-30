@@ -231,18 +231,23 @@
   flex: 1 1 auto;
   text-align: center;
   margin: auto;
+  padding: 3%;
   align-self: center;
   text-wrap: wrap;
   width: 100%;
 }
 
-.CPFlexChild > .art {
+.CPFlexChild {
+	color: white;
+}
+
+.GPFlexParent > .art {
 background-color: #EAD04B;
 }
-.CPFlexChild > .business {
+.GPFlexParent > .business {
 background-color: #A0B85F;
 }
-.CPFlexChild > .industrial {
+.GPFlexParent > .industrial {
 background-color: #EA973E;
 }
 .GPFlexParent > .culinary {
