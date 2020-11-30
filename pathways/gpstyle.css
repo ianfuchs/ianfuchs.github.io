@@ -215,9 +215,9 @@
 
 
 
-//*This is the styling for the home page flex row */
+/*This is the styling for the home page flex row */
 
-.GPFlexParent * {
+.GPFlexParent {
   display: none;
   flex-direction: column;
 }
