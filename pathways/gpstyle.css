@@ -223,12 +223,11 @@
   align-content: space-around;
   align-items: center;
   min-height: 200px;
- //background: lightgray;
- flex-direction: column;
+  flex-direction: column;
 }
 
 .CPFlexChild {
-  flex: 1 1 auto;
+  flex: 1;
   text-align: center;
   margin: auto;
   padding: 3%;
