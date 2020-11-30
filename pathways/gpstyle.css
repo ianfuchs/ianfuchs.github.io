@@ -222,7 +222,6 @@
   flex-wrap: wrap;
   align-content: space-around;
   align-items: center;
-  min-height: 200px;
   flex-direction: column;
 }
 
@@ -230,7 +229,7 @@
   flex: 1;
   text-align: center;
   margin: auto;
-  padding: 3%;
+  padding: 1%;
   align-self: center;
   text-wrap: wrap;
   width: 100%;
@@ -238,6 +237,7 @@
 
 .CPFlexChild {
 	color: white;
+	text-decoration: strong;
 }
 
 .GPFlexParent > .art {
@@ -270,13 +270,11 @@ background-color: #DA3831;
 	  flex-wrap: wrap;
 	  align-content: space-around;
 	  align-items: center;
-	  min-height: 200px;
-	 //background: lightgray;
 	  flex-direction: row;
 	}
 	
 	.CPFlexChild {
-	  flex: 1 1 auto;
+	  flex: 1;
 	  text-align: center;
 	  margin: 1px;
 	  align-self: center;
