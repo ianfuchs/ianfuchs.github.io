@@ -218,7 +218,7 @@
 //*This is the styling for the home page flex row */
 
 .GPFlexParent {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   align-content: space-around;
   align-items: center;
@@ -231,17 +231,16 @@
   margin: auto;
   padding: 1%;
   align-self: center;
-  text-wrap: wrap;
   width: 100%;
 }
 
 .CPFlexChild {
 	color: white;
-	font-weight: 200;
+	font-weight: 600;
 	float: right;
 }
 
-.CPFlexChild.img {
+.CPFlexChild > img {
 	margin: auto;
 	max-width: 25%;
 	float: left;
@@ -274,7 +273,7 @@ background-color: #DA3831;
 /* This is for desktop displays wider than 680px*/
   
 	.GPFlexParent {
-	  display: flex;
+	  display: table;
 	  flex-wrap: wrap;
 	  align-content: space-around;
 	  align-items: center;
@@ -282,11 +281,10 @@ background-color: #DA3831;
 	}
 	
 	.CPFlexChild {
-	  flex: 1;
+	  display: table-cell;
 	  text-align: center;
 	  margin: 1px;
 	  align-self: center;
-	  text-wrap: wrap;
 	  width: 13%;
 	}
 	
@@ -294,7 +292,7 @@ background-color: #DA3831;
 	  float: unset;
 }
 	
-	.CPFlexChild.img {
+	.CPFlexChild > img {
 	  max-width: unset;
 	  float: unset;
 }
