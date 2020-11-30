@@ -218,32 +218,43 @@
 //*This is the styling for the home page flex row */
 
 .GPFlexParent {
-  display: block;
-/* 
-  flex-wrap: wrap;
-  align-content: space-around;
-  align-items: center;
+  display: flex;
   flex-direction: column;
- */
 }
 
 .CPFlexChild {
-  flex: 1;
   text-align: center;
   margin: auto;
   padding: 1%;
-  align-self: center;
   width: 100%;
   cursor: pointer;
   color: white;
   font-weight: 600;
+  float: right;
+  vertical-align: middle;
 }
 
-
-.CPFlexChild {
-	float: right;
-	vertical-align: middle;
-}
+	.GPFlexParent > .art {
+		background-color: #EAD04B;
+	}
+	.GPFlexParent > .business {
+		background-color: #A0B85F;
+	}
+	.GPFlexParent > .industrial {
+		background-color: #EA973E;
+	}
+	.GPFlexParent > .culinary {
+		background-color: #5D559E;
+	}
+	.GPFlexParent > .health {
+		background-color: #3074AC;
+	}
+	.GPFlexParent > .human {
+		background-color: #78BED2;
+	}
+	.GPFlexParent > .scieng {
+		background-color: #DA3831;
+	}
 
 .CPFlexChild > img {
 	margin: auto;
@@ -252,50 +263,20 @@
 }
 
 
-.GPFlexParent > .art {
-background-color: #EAD04B;
-}
-.GPFlexParent > .business {
-background-color: #A0B85F;
-}
-.GPFlexParent > .industrial {
-background-color: #EA973E;
-}
-.GPFlexParent > .culinary {
-background-color: #5D559E;
-}
-.GPFlexParent > .health {
-background-color: #3074AC;
-}
-.GPFlexParent > .human {
-background-color: #78BED2;
-}
-.GPFlexParent > .scieng {
-background-color: #DA3831;
-}
-
 @media only screen and (min-width: 680px) {
 /* This is for desktop displays wider than 680px*/
   
 	.GPFlexParent {
 	  display: table;
-	  flex-wrap: wrap;
-	  align-content: space-around;
-	  align-items: center;
-	  flex-direction: row;
 	}
 	
 	.CPFlexChild {
 	  display: table-cell;
 	  text-align: center;
 	  margin: 1px;
-	  align-self: center;
 	  width: 13%;
 	  transition: all 200ms ease-out;
       box-shadow: none;
-	}
-	
-	.CPFlexChild {
 	  float: unset;
 	  vertical-align: top;
 	}
@@ -308,6 +289,6 @@ background-color: #DA3831;
 	.CPFlexChild > img {
 	  max-width: 100%;
 	  float: unset;
-}
+	}
 
 }
