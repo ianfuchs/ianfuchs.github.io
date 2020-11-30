@@ -236,13 +236,13 @@
   width: 100%;
 }
 
-.GPFlexParent > .art {
+.CPFlexChild > .art {
 background-color: #EAD04B;
 }
-.GPFlexParent > .business {
+.CPFlexChild > .business {
 background-color: #A0B85F;
 }
-.GPFlexParent > .industrial {
+.CPFlexChild > .industrial {
 background-color: #EA973E;
 }
 .GPFlexParent > .culinary {
