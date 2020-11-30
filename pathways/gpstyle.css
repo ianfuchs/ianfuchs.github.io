@@ -218,7 +218,7 @@
 //*This is the styling for the home page flex row */
 
 .GPFlexParent * {
-  display: flex;
+  display: none;
   flex-direction: column;
 }
 
@@ -260,6 +260,10 @@
 	margin: auto;
 	max-width: 25%;
 	float: left;
+}
+
+.CPFlexChild > span {
+	vertical-align: middle;
 }
 
 
