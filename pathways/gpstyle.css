@@ -232,11 +232,13 @@
   padding: 1%;
   align-self: center;
   width: 100%;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
 }
 
+
 .CPFlexChild {
-	color: white;
-	font-weight: 600;
 	float: right;
 }
 
@@ -286,14 +288,21 @@ background-color: #DA3831;
 	  margin: 1px;
 	  align-self: center;
 	  width: 13%;
+	  transition: all 200ms ease-out;
+      box-shadow: none;
 	}
 	
 	.CPFlexChild {
 	  float: unset;
-}
+	}
+
+	.CPFlexChild:hover {
+	  box-shadow: 0 0 12px rgb(102, 102, 102);
+	  z-index: 1;
+	}
 	
 	.CPFlexChild > img {
-	  max-width: unset;
+	  max-width: 100%;
 	  float: unset;
 }
 
