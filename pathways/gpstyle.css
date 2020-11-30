@@ -240,6 +240,7 @@
 
 .CPFlexChild {
 	float: right;
+	vertical-align: middle;
 }
 
 .CPFlexChild > img {
@@ -294,6 +295,7 @@ background-color: #DA3831;
 	
 	.CPFlexChild {
 	  float: unset;
+	  vertical-align: top;
 	}
 
 	.CPFlexChild:hover {
