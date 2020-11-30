@@ -217,7 +217,7 @@
 
 //*This is the styling for the home page flex row */
 
-.GPFlexParent {
+.GPFlexParent * {
   display: flex;
   flex-direction: column;
 }
