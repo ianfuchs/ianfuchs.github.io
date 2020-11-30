@@ -225,7 +225,7 @@
 .CPFlexChild {
   text-align: center;
   margin: auto;
-  padding: 1%;
+  padding: 0 1%;
   width: 100%;
   cursor: pointer;
   color: white;
@@ -277,7 +277,6 @@
 	.CPFlexChild {
 	  display: table-cell;
 	  text-align: center;
-	  margin: 1px;
 	  width: 13%;
 	  transition: all 200ms ease-out;
       box-shadow: none;
