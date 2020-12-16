@@ -269,7 +269,7 @@
 }
 
 .CPFlexChild > span:before {
-	content: '\A'';
+	content: '\A';
 }
 
 
