@@ -265,10 +265,11 @@
 
 .CPFlexChild > span {
 	vertical-align: middle;
+	white-space: break-spaces;
 }
 
 .CPFlexChild > span:before {
-	content: "\00a0 ";
+	content: '\A'';
 }
 
 
