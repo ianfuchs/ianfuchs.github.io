@@ -268,7 +268,7 @@
 	white-space: break-spaces;
 }
 
-.CPFlexChild > span:before {
+.CPFlexChild > span:before, .CPFlexChild > span:after {
 	content: '\A';
 }
 
