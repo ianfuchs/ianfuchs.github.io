@@ -268,9 +268,10 @@
 	white-space: break-spaces;
 }
 
-.CPFlexChild > span:before, .CPFlexChild > span:after {
+.CPFlexChild > span:before {
 	content: '\A';
 }
+
 
 
 @media only screen and (min-width: 680px) {
@@ -299,5 +300,8 @@
 	  max-width: 100%;
 	  float: unset;
 	}
+	.CPFlexChild > span:after {
+	content: '\A\A';
+}
 
 }
