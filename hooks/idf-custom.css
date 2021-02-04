@@ -228,3 +228,11 @@ h3.linked {
 	width: 100%;
 	max-width: 360px;
 }
+
+
+/*Reducing pad on low-level alerts on desktop only*/
+@media screen and (min-width: 56em) {
+	.alert {
+		padding: 1.5rem !important;
+	}
+}
