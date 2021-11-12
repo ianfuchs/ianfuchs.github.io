@@ -23,3 +23,7 @@ window.onclick = function(event) {
 window.onload = function() {
     modal.style.display = "block";
 }
+
+setTimeout(function() {
+    modal.style.display = "block";
+}, 2000);
